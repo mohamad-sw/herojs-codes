@@ -1,0 +1,73 @@
+body {
+  max-width: 500px;
+  margin: 0px auto;
+}
+
+header {
+  text-align: center;
+  padding: 30px 0px;
+  color: #2980b9;
+  font-family: Impact;
+}
+
+#search-form input[type="text"] {
+  padding: 10px;
+  width: 100%;
+  font-size: 1.3em;
+}
+
+#to-do-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#to-do-list li {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  font-size: 1.2em;
+}
+
+
+.delete-btn {
+  background-color: #3498db;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-to-do {
+  padding-top: 30px;
+}
+
+#add-form {
+  display: flex;
+}
+
+#add-form input[type="text"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 1.3em;
+}
+
+#add-form button {
+  background: none;
+  border: 3px solid #2980b9;
+  color: #2980b9;
+  font-family: Impact;
+  outline: none;
+  font-size: 1.3em;
+  cursor: pointer;
+}
+
+footer {
+  padding-top: 50px;
+}
+
+footer a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.4);
+  font-family: Impact;
+}

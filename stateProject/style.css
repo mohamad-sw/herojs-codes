@@ -1,0 +1,28 @@
+main,nav{
+    max-width: 400px;
+    margin: 0px auto;
+    display: flex;
+}
+
+main{
+    background-color: red;
+    min-height: 90vh;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    background-color: white;
+    min-height: 50px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+nav i{
+    list-style-type: none;
+    color: #666;
+    cursor: pointer;
+}
+
